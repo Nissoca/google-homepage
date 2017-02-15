@@ -1,0 +1,58 @@
+body {
+  margin-top: 15%;
+}
+#cima {
+  margin-top: 40px;
+  text-align: center;
+}
+#brasil-logo {
+  color: #44a2e5;
+  font-size: 1.0em;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  right: -100px;
+  top: -23px;
+}
+#search-bar {
+  display: block;
+}
+#search {
+  position: relative;
+}
+#search input {
+  height: 40px;
+  border: 0;
+  box-shadow: 0 1px 5px #c6c4c4;
+}
+#search input, #micro {
+  width: 550px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+#micro {
+  height: 40px;
+  background: url(images/micro.png) no-repeat -80px 8px;
+  background-size: 24px 24px;
+  background-position: 98% 50%;
+}
+input {
+  display: block;
+  margin: auto;
+}
+#submit {
+  text-align: center;
+}
+#submit input {
+  color: #939393;
+  font-weight: bold;
+  height: 35px;
+  width: 130px;
+  border: 0;
+  background-color: #f5f5f5;
+  display: inline;
+  margin: 25px 10px 0 0;
+  box-shadow: 0;
+  margin-top: 80px;
+}
